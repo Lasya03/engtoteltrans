@@ -5,9 +5,7 @@ from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 # =============================
 # 📦 Load dataset (optional)
 # =============================
-st.write("🔹 Loading sample dataset (for reference)...")
 ds = load_dataset("prudhvirajdowluri/english_to_telugu_translation")
-st.write(ds)
 
 # =============================
 # 🧠 Load model and tokenizer
