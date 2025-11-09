@@ -3,3 +3,5 @@ transformers
 datasets
 torch
 sentencepiece
+protobuf
+
